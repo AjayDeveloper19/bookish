@@ -491,7 +491,7 @@ body {
   background-color: var(--white);
   color: var(--chinese-violet);
   font-size: 22px;
-  padding: 24px;
+  padding: 20px 28px;
   border-radius: 50%;
   transition: var(--transition-1);
   animation: pulse 3s ease infinite;
@@ -632,7 +632,7 @@ body {
   overflow: hidden;
 }
 
-.benefits-card .card-text{
+.benefits-card .card-text {
   -webkit-line-clamp: 8;
 }
 
@@ -913,10 +913,14 @@ textarea.input-field {
   background-color: var(--old-rose);
   color: var(--white);
   font-size: 20px;
-  padding: 5px;
+  padding: 5px 15px;
   box-shadow: var(--shadow-3);
   transition: var(--transition-1);
 }
+
+/* .social-list li:nth-child(1) .social-link {
+  padding: 5px 10px;
+} */
 
 .social-link:is(:hover, :focus) {
   background-color: var(--chinese-violet);
@@ -976,6 +980,7 @@ textarea.input-field {
 /* ===== responsive for large than 320px screen ===== */
 
 @media (min-width: 320px) {
+
   /* ===== HERO ===== */
   .container .popup-video iframe {
     height: 22%;
@@ -1079,11 +1084,6 @@ textarea.input-field {
 
   .social-list-title {
     --fs-6: 2.2rem;
-  }
-
-  .social-link {
-    font-size: 25px;
-    padding: 8px;
   }
 
 }
