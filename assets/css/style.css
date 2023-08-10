@@ -8,9 +8,7 @@
 
 :root {
 
-  /**
-   * colors
-   */
+  /* ===== colors ===== */
 
   --chinese-violet_30: hsla(304, 14%, 46%, 0.3);
   --chinese-violet: hsl(304, 14%, 46%);
@@ -24,9 +22,7 @@
   --charcoal: hsl(203, 30%, 26%);
   --white: hsl(0, 0%, 100%);
 
-  /**
-   * typography
-   */
+  /* ===== typography ===== */
 
   --ff-philosopher: 'Philosopher', sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
@@ -42,37 +38,27 @@
   --fw-500: 500;
   --fw-700: 700;
 
-  /**
-   * spacing
-   */
+  /* ===== spacing ====== */
 
   --section-padding: 80px;
 
-  /**
-   * shadow
-   */
+  /* ===== shadow ===== */
 
   --shadow-1: 4px 6px 10px hsla(231, 94%, 7%, 0.06);
   --shadow-2: 2px 0 15px 5px hsla(231, 94%, 7%, 0.06);
   --shadow-3: 3px 3px var(--chinese-violet);
   --shadow-4: 5px 5px var(--chinese-violet);
 
-  /**
-   * radius
-   */
+  /* ===== radius ===== */
 
   --radius-5: 5px;
   --radius-10: 10px;
 
-  /**
-   * clip path
-   */
+  /* ===== clip path ===== */
 
   --polygon: polygon(100% 29%, 100% 100%, 19% 99%, 0 56%);
 
-  /**
-   * transition
-   */
+  /* ===== transition ===== */
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
